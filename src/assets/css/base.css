@@ -350,7 +350,7 @@ section {
   transition: all 0.3s;
 }
 textarea.form-control {
-  min-height: 100px;
+  min-height: 110px;
   padding: 14px 24px;
 }
 .form-floating > .form-control,
