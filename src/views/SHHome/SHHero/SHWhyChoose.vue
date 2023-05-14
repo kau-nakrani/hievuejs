@@ -49,7 +49,6 @@
 <style>
 .why-choose-section{
     background: var(--white-color);
-    padding: 95px 12px;
     /* background: url(./../../../assets/images/banner/why-choose-bg.png) linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);  */
 }
 .why-choose-section::after{
