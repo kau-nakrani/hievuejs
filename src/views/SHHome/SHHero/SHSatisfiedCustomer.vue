@@ -273,7 +273,7 @@
     font-size: 20px;
     text-align: center;
 }
-.satisfied-customer-box .swiper-wrapper{
+.satisfied-customer-slider .swiper-wrapper{
     padding: 50px 0 70px;
 }
 .satisfied-customer-slider .swiper-slide {
