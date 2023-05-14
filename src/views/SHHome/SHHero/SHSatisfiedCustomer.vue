@@ -3,7 +3,6 @@
     // import IconStar from './../../../components/icons/IconStar.vue';
     // import IconPro from '../../../components/icons/IconPro.vue';
     import { Swiper, SwiperSlide } from 'swiper/vue';
-    import 'swiper/css';
     export default {
     components: {
       Swiper,
@@ -24,7 +23,7 @@
   };
 </script>
 <template>
-    <section className="satisfied-customer-section img-cover section-extra-big-py">
+    <section className="satisfied-customer-section img-cover section-extra-big-pt">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -33,7 +32,10 @@
                     <div class="satisfied-customer-slider">
                         <swiper
                             :slides-per-view="3"
-                            :space-between="50"
+                            :space-between="0"
+                            :loop=true
+                            :centeredSlides=true
+                            :autoplay=true
                             @swiper="onSwiper"
                             @slideChange="onSlideChange"
                         >
@@ -242,7 +244,6 @@
 .satisfied-customer-section{
     background: url(./../../../assets/images/banner/satisfied-bg.png) var(--light-white-color);
     width: 100%;
-    min-height: 800px;
 }
 .satisfied-customer-box{
     background: var(--white-color);
@@ -272,7 +273,15 @@
     font-size: 20px;
     text-align: center;
 }
-.satisfied-customer-slider{
-    margin-top: 80px;
+.swiper-wrapper{
+    padding: 50px 0 70px;
+}
+.satisfied-customer-slider .swiper-slide {
+    transition: all 200ms linear;
+    transform: scale(0.8);
+}
+.satisfied-customer-slider .swiper-slide-active {
+    transform: scale(1);
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.04);
 }
 </style>
