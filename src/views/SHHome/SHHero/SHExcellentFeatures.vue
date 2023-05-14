@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section className="excellent-features-section">
+    <section className="excellent-features-section section-extra-big-py">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -53,7 +53,6 @@
 <style>
 .excellent-features-section{
     background-color: var(--light-white-color);
-    padding: 95px 12px;
 }
 .excellent-features-row{
     margin-top: 90px;

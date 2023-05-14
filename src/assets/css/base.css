@@ -563,6 +563,9 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.z-2{
+  z-index: 2;
+}
 /* default css end */
 .body-banner{
   background-image: url(./../images/banner/body-banner.png);
