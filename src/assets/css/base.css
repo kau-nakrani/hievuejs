@@ -604,3 +604,6 @@ textarea.form-control {
   right: 233px;
   z-index: -1;
 }
+.b-radius-100{
+  border-radius: 100%;
+}
