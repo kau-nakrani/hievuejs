@@ -35,7 +35,7 @@ const List1 = [
   <footer>
     <div className="container">
       <div className="row">
-        <div className="col-12 d-flex footer-main-col">
+        <div className="col-12 d-lg-flex footer-main-col">
           <div className="left-col d-grid">
             <div className="first-col">
               <img src="./../../assets/images/logo/logo.png" fluid alt="" />
@@ -60,7 +60,7 @@ const List1 = [
               </ul>
             </div>
           </div>
-          <div className="right-col">
+          <div className="right-col mt-4 mt-lg-0">
             <h6 className="fw-600">Email Newsletter</h6>
             <div className="form-group">
               <input
@@ -172,5 +172,10 @@ footer .second-col{
     .sub-footer {
       padding: 20px 12px;
     }
+}
+@media (max-width: 991px){
+  footer .left-col,footer .right-col{
+    width: 100%;
   }
+}
 </style>

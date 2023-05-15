@@ -11,7 +11,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
               <div className="col-12">
                     <h2 className="text-center fw-700 mb-0 heading-title small-heading-title">Checkout</h2>
                     <p className="label-heading-title text-center">Enter your personal details to complete your purchase.</p>
-                    <div className="checkout-box-row d-flex">
+                    <div className="checkout-box-row d-lg-flex">
                       <div class="checkout-box-left-col bg-white checkout-box-radius h-100">
                         <h2 className="fw-700 text-start">Order Summary</h2>
                         <div className="label d-flex align-items-center w-max-content">12 months</div>
@@ -277,7 +277,32 @@ form {
 }
 @media (max-width: 1799px){
   .checkout-box-left-col,.checkout-box-right-col{
-    margin-top: 15px;
+    margin-top: 35px;
+  }
+}
+@media (max-width: 1199px){
+  :root{
+    --checkout-box-left-col: 350px;
+  }
+  .checkout-box-right-col {
+    padding: 30px;
+  }
+  form {
+    margin-top: 20px;
+  }
+  .checkout-box-row .label{
+    margin: 10px 0 18px;
+  }
+  .checkout-box-left-col{
+    padding: 20px;
+  }
+  .checkout-box-row ul li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 991px){
+  .checkout-box-left-col,.checkout-box-right-col{
+    width: 100%;
   }
 }
 </style>

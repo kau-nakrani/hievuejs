@@ -17,7 +17,7 @@ import logoImg from "../../assets/images/logo/logo.png";
     <div className="container">
       <div className="row">
         <div className="col-12 d-flex align-items-center">
-          <img src="./../../assets/images/logo/logo.png" fluid alt=""/>
+          <img src="./../../assets/images/logo/logo.png" fluid alt="" class="header-logo"/>
           <nav className="d-flex align-items-center ms-auto">
             <RouterLink to="/landing-page">Feature</RouterLink>
             <RouterLink to="/choose-plan">Documentations</RouterLink>
@@ -45,9 +45,36 @@ import logoImg from "../../assets/images/logo/logo.png";
     font-size: 19px;
     line-height: 25px;
     color: var(--secondary-color);
+  }
+  header nav a:not(:last-child){
     margin-right: 50px;
   }
   header nav a.buy-button{
     color: var(--white-color);
+  }
+  @media (max-width: 1199px){
+    header nav a:not(:last-child){
+      margin-right: 30px;
+    }
+    header nav a{
+      font-size: 18px;
+    }
+    /* .header-logo{
+      max-width: 170px;
+    } */
+  }
+  @media (max-width: 991px){
+    header nav a:not(:last-child){
+      margin-right: 20px;
+    }
+    header nav a{
+      font-size: 16px;
+    }
+    .header-logo{
+      max-width: 150px;
+    }
+    header .primary-btn{
+      min-width: 100px;
+    }
   }
 </style>

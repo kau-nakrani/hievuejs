@@ -52,4 +52,10 @@ import SHTable from '../../components/SHTable/SHTable.vue';
   .billing-history-table tbody tr:hover .path-fill-hover path{
     fill: var(--accent-color1);
   }
+  @media (max-width: 991px){
+    .billing-history-table tbody td{
+      font-size: 15px;
+      padding: 7px 5px;
+    }
+  }
 </style>

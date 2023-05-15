@@ -631,3 +631,17 @@ textarea.form-control {
     border-radius: 8px;
   }
 }
+@media (max-width: 1199px){
+  .heading-title.small-heading-title{
+    font-size: 24px;
+  }
+}
+@media (max-width: 991px){
+  .primary-btn{
+    min-width: 120px;
+    min-height: 35px;
+    font-size: 14px;
+    padding: 7px 10px;
+    border-radius: 5px;
+  }
+}

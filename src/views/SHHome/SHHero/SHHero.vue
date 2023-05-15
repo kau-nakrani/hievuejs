@@ -9,14 +9,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="hero-row d-flex">
-                        <div class="hero-left-col">
+                    <div class="hero-row d-xl-flex">
+                        <div class="hero-left-col text-center text-xl-start">
                             <h1 className="heading-title">
                                 Hide category and product from the shop page in
                                 <img src="./../../../assets/images/logo/woocommerce-logo.png" class="img-fluid" alt="" />
                             </h1>
                             <p>Hide a specific category and hide the product from the shop page using WooCommerce</p>
-                            <div className="d-flex align-items-center gap-3">
+                            <div className="d-flex align-items-center justify-content-center justify-content-xl-start gap-3">
                                 <button to="/checkout" className="primary-btn gap-2 big-btn d-flex align-items-center">
                                     <IconDownloadWhite/>
                                     Download for free
@@ -27,7 +27,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="hero-right-col">
+                        <div class="hero-right-col mt-5 mt-xl-0">
                             <img src="./../../../assets/images/medium-img/mock.png" class="img-fluid" alt="" />
                         </div>
                     </div>
@@ -68,8 +68,9 @@
 .hero-section{
     background-image: url(./../../../assets/images/banner/hero-main-banner.png);
     width: 100%;
-    height: calc(100vh - var(--header-less-spacing));
-    min-height: 800px;
+    min-height: calc(100vh - var(--header-less-spacing));
+    /* min-height: 800px; */
+    padding: 100px 12px 50px;
 }
 .hero-left-col{
     width: var(--hero-left-col);
@@ -130,6 +131,46 @@
     }
     .hero-counter-wrap {
         margin-top: 70px;
+    }
+}
+@media (max-width: 1199px){
+    .hero-left-col,.hero-right-col{
+        width: 100%;
+    }
+    .hero-left-col p{
+        margin: 13px 0 35px;
+    }
+    .hero-section{
+        padding: 50px 12px;
+    }
+    .heading-title {
+        font-size: 30px;
+    }
+    .hero-counter-row {
+        grid-gap: 16px;
+    }
+    .hero-counter-col {
+        min-height: 100px;
+        border-radius: 13px;
+        padding: 5px 23px;
+    }
+    .hero-counter-col h5{
+        font-size: 20px;
+    }
+    .hero-counter-col span{
+        font-size: 16px;
+    }
+}
+@media (max-width: 991px){
+    .hero-counter-col .content-wrap {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .hero-counter-col {
+        padding: 5px 13px;
+    }
+    .hero-counter-col span {
+        font-size: 14px;
     }
 }
 </style>

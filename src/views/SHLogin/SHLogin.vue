@@ -115,4 +115,9 @@ import IconPassword from '../../components/icons/IconPassword.vue'
     margin-top: 30px;
   }
 }
+@media (max-width: 991px){
+  .auth-box h2{
+    font-size: 24px;
+  }
+}
 </style>

@@ -297,4 +297,34 @@
         font-size: 18px;
     }
 }
+@media (max-width: 1199px){
+    .satisfied-customer-box {
+        padding: 20px 15px;
+    }
+    .satisfied-customer-box p {
+        font-size: 16px;
+    }
+    .satisfied-customer-slider .swiper-wrapper {
+        padding: 40px 0 50px;
+    }
+}
+@media (max-width: 991px){
+    .satisfied-customer-box {
+        border-radius: 15px;
+        padding: 15px 10px;
+    }
+    .satisfied-customer-box p {
+        font-size: 14px;
+    }
+    .satisfied-customer-box h5{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .satisfied-customer-img-box {
+        width: 75px;
+        height: 75px;
+        border-width: 2px;
+        padding: 4px;
+    }
+}
 </style>

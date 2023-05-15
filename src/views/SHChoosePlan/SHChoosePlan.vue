@@ -12,7 +12,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                     <p className="label-heading-title text-center">Join 7000+ happy users who are using the best of our plugin Hide category and products in WooCommerce.</p>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style0 position-relative">
                       <div class="row">
-                          <div class="col-md-3">
+                          <div class="col-lg-3">
                               <div class="label label-yellow d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
                               <p class="fw-400">For those that are just starting out. use on 1 sites</p>
                               <ul class="plan-list-wrap">
@@ -20,7 +20,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-md-7">
+                          <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-flex gap-4 categories-list-wrap">
                                 <ul>
@@ -77,7 +77,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center">
+                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
                               <h2 class="fw-700 mb-3">$10.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
@@ -85,7 +85,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                   </div>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style1 position-relative">
                       <div class="row">
-                          <div class="col-md-3">
+                          <div class="col-lg-3">
                               <div class="label label-green d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
                               <p class="fw-400">For those that are just starting out. use on 1 sites</p>
                               <ul class="plan-list-wrap">
@@ -93,7 +93,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-md-7">
+                          <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-flex gap-4 categories-list-wrap">
                                 <ul>
@@ -150,7 +150,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center">
+                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
                               <h2 class="fw-700 mb-3">$25.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
@@ -158,7 +158,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                   </div>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style2 position-relative">
                       <div class="row">
-                          <div class="col-md-3">
+                          <div class="col-lg-3">
                               <div class="label label-pink d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
                               <p class="fw-400">For those that are just starting out. use on 1 sites</p>
                               <ul class="plan-list-wrap">
@@ -166,7 +166,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-md-7">
+                          <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-flex gap-4 categories-list-wrap">
                                 <ul>
@@ -223,7 +223,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center">
+                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
                               <h2 class="fw-700 mb-3">$75.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
@@ -338,6 +338,12 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
   }
   .choose-plan-box-wrapper h2{
     font-size: 35px;
+  }
+}
+@media (max-width: 1199px){
+  .choose-plan-box-wrapper {
+    margin-top: 25px;
+    padding: 20px 35px;
   }
 }
 </style>

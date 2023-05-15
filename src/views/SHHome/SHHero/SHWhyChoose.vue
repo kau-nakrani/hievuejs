@@ -117,4 +117,9 @@
         padding: 20px;
     }
 }
+@media (max-width: 1199px){
+    .why-choose-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 </style>
