@@ -275,4 +275,9 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
 form {
   margin-top: 50px;
 }
+@media (max-width: 1799px){
+  .checkout-box-left-col,.checkout-box-right-col{
+    margin-top: 15px;
+  }
+}
 </style>

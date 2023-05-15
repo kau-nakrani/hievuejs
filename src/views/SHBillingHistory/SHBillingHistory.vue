@@ -38,11 +38,18 @@ import SHTable from '../../components/SHTable/SHTable.vue';
   }
   .billing-history-table tbody tr{
     border-top: 1px solid #E0EAEE;
+    transition: all 0.3s;
   }
   .billing-history-table tbody tr:last-child{
     border-bottom: 1px solid #E0EAEE;
   }
   .billing-history-table .icon{
     padding-left: 25px;
+  }
+  .billing-history-table tbody tr:hover td{
+    color: var(--primary-color);
+  }
+  .billing-history-table tbody tr:hover .path-fill-hover path{
+    fill: var(--accent-color1);
   }
 </style>

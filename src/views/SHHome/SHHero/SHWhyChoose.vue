@@ -72,6 +72,11 @@
 .why-choose-col{
     padding: 30px;
     border-radius: 15px;
+    transition: all 0.3s;
+}
+.why-choose-col:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: var(--white-color);
 }
 .why-choose-img-box{
     width: 75px;
@@ -102,5 +107,14 @@
 }
 .fast-and-sequre-bg{
     background-color: #F5F2FF;
+}
+@media (max-width: 1799px){
+    .why-choose-row{
+        margin-top: 50px;
+        grid-gap: 10px;
+    }
+    .why-choose-col {
+        padding: 20px;
+    }
 }
 </style>

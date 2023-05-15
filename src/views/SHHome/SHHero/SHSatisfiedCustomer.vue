@@ -249,6 +249,8 @@
     background: var(--white-color);
     border-radius: 27px;
     padding: 60px 35px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
 }
 .satisfied-customer-img-box{
     width: 85px;
@@ -283,5 +285,16 @@
 .satisfied-customer-slider .swiper-slide-active {
     transform: scale(1);
     box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.04);
+}
+.satisfied-customer-box:hover{
+    border-color: var(--accent-color1);
+}
+@media (max-width: 1799px){
+    .satisfied-customer-box {
+        padding: 40px 25px;
+    }
+    .satisfied-customer-box p{
+        font-size: 18px;
+    }
 }
 </style>

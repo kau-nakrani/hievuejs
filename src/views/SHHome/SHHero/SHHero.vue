@@ -69,6 +69,7 @@
     background-image: url(./../../../assets/images/banner/hero-main-banner.png);
     width: 100%;
     height: calc(100vh - var(--header-less-spacing));
+    min-height: 800px;
 }
 .hero-left-col{
     width: var(--hero-left-col);
@@ -96,6 +97,10 @@
     box-shadow: 0px 16px 63px rgba(0, 0, 0, 0.09);
     border-radius: 23px;
     padding: 15px 43px;
+    border: 1px solid transparent;
+}
+.hero-counter-col:hover,.excellent-features-col:hover{
+    border-color: var(--primary-color);
 }
 .hero-counter-col .content-wrap{
     margin-left: 30px;
@@ -106,10 +111,25 @@
     font-size: 28px;
     letter-spacing: -0.01em;
     color: var(--secondary-color);
+    transition: all 0.3s;
 }
 .hero-counter-col span{
     font-size: 20px;
     letter-spacing: -0.01em;
     color: var(--text-color);
+}
+.hero-counter-col:hover span{
+    color: var(--accent-color1);
+}
+@media (max-width: 1799px){
+    /* :root {
+        --hero-left-col: 550px;
+    } */
+    .hero-left-col p,.hero-counter-col span{
+        font-size: 18px;
+    }
+    .hero-counter-wrap {
+        margin-top: 70px;
+    }
 }
 </style>

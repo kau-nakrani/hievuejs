@@ -36,6 +36,9 @@ import logoImg from "../../assets/images/logo/logo.png";
     min-height: var(--header-less-spacing);
     background: var(--white-color);
     box-shadow: 0px 6px 21px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 999;
   }
   header nav a{
     font-weight: 400;

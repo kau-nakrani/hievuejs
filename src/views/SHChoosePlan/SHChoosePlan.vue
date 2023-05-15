@@ -83,7 +83,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           </div>
                       </div>
                   </div>
-                  <div className="box-wrapper-one choose-plan-box-wrapper bg-style0 position-relative">
+                  <div className="box-wrapper-one choose-plan-box-wrapper bg-style1 position-relative">
                       <div class="row">
                           <div class="col-md-3">
                               <div class="label label-green d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
@@ -156,7 +156,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           </div>
                       </div>
                   </div>
-                  <div className="box-wrapper-one choose-plan-box-wrapper bg-style0 position-relative">
+                  <div className="box-wrapper-one choose-plan-box-wrapper bg-style2 position-relative">
                       <div class="row">
                           <div class="col-md-3">
                               <div class="label label-pink d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
@@ -241,6 +241,17 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
   padding: 50px 95px;
   margin-top: 45px;
   margin-bottom: 30px;
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+.choose-plan-box-wrapper.bg-style0:hover{
+  border-color: #806F0E;
+}
+.choose-plan-box-wrapper.bg-style1:hover{
+  border-color: #13825A;
+}
+.choose-plan-box-wrapper.bg-style2:hover{
+  border-color: #85356E;
 }
 .choose-plan-box-wrapper .label{
   min-width: 115px;
@@ -311,5 +322,22 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
   text-align: center;
   letter-spacing: -0.01em;
   color: var(--secondary-color);
+}
+.choose-plan-box-wrapper h4{
+  font-size: 20px;
+}
+@media (max-width: 1799px){
+  .choose-plan-box-wrapper{
+    margin-top: 35px;
+    padding: 30px 45px;
+  }
+  .choose-plan-box-wrapper .label {
+    min-width: 105px;
+    min-height: 45px;
+    font-size: 20px;
+  }
+  .choose-plan-box-wrapper h2{
+    font-size: 35px;
+  }
 }
 </style>

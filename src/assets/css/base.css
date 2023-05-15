@@ -575,8 +575,8 @@ textarea.form-control {
 .box-wrapper{
   width: 100%;
   min-height: 350px;
-  max-height: calc(100vh - var(--header-less-spacing) - 200px);
-  overflow-y: auto;
+  /* max-height: calc(100vh - var(--header-less-spacing) - 100px); */
+  /* overflow-y: auto; */
   background-color: var(--white-color);
   border-radius: 26px;
   margin-top: 30px;
@@ -606,4 +606,28 @@ textarea.form-control {
 }
 .b-radius-100{
   border-radius: 100%;
+}
+.path-fill-hover:hover path{
+  fill: var(--accent-color1);
+}
+@media (max-width: 1799px){
+  :root{
+    --section-extra-big-spacing: 65px;
+    --section-big-spacing: 55px;
+    --section-mid-spacing: 40px;
+    --section-small-spacing: 30px;
+  }
+  .heading-title{
+    font-size: 40px;
+  }
+  .hero-left-col p {
+    margin: 13px 0 45px;
+  }
+  .big-btn{
+    min-width: 200px;
+    font-size: 17px;
+  }
+  .primary-btn{
+    border-radius: 8px;
+  }
 }

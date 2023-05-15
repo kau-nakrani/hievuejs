@@ -122,6 +122,9 @@
     padding: 30px 0;
     background-color: transparent;
 }
+.accordion-item .accordion-button:hover{
+    color: var(--primary-color);
+}
 .accordion-button:focus,
 .accordion-button:not(.collapsed){
     box-shadow: none;
@@ -138,5 +141,16 @@
     border-top: 1px solid #EAEEEF;
     padding: 13px 0 0;
     margin-bottom: 44px;
+}
+@media (max-width: 1799px){
+    .accordion {
+        margin-top: 50px;
+    }
+    .accordion-item .accordion-button{
+        padding: 20px 0;
+    }
+    .accordion-body {
+        margin-bottom: 24px;
+    }   
 }
 </style>

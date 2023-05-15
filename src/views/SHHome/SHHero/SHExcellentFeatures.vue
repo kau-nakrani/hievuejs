@@ -64,6 +64,8 @@
     box-shadow: 0px 7px 19px rgba(0, 0, 0, 0.04);
     border-radius: 21px;
     padding: 30px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
 }
 .excellent-features-col h6{
     padding-left: 17px;
@@ -73,5 +75,16 @@
 }
 .excellent-features-col img{
     flex: 0;
+}
+@media (max-width: 1799px){
+    .excellent-features-col h6{
+        font-size: 18px;
+    }
+    .excellent-features-col{
+        padding: 20px 30px;
+    }
+    .excellent-features-row {
+        margin-top: 50px;
+    }
 }
 </style>

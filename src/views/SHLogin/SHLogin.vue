@@ -106,4 +106,13 @@ import IconPassword from '../../components/icons/IconPassword.vue'
 .auth-box .sign-up-text a {
   color: var(--light-blue-color);
 }
+@media (max-width: 1799px){
+  .auth-box{
+    padding: 35px 100px;
+    border-radius: 32px;
+  }
+  .auth-box form, .auth-box .sign-up-text{
+    margin-top: 30px;
+  }
+}
 </style>

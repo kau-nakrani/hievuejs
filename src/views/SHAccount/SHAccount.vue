@@ -5,7 +5,7 @@
                 <div className="col-12">
                     <div className="box-wrapper account-section bg-style0 position-relative mt-0">
                         <div class="list-data">
-                          <span className="fw-400 mb-4 d-block dark-gray-color">Personal Information</span>
+                          <span className="fw-400 mb-3 mb-xxl-4 d-block dark-gray-color">Personal Information</span>
                           <div class="d-flex align-items-end">
                             <div class="d-flex gap-5 flex-wrap">
                               <div>
@@ -22,7 +22,7 @@
                         </div>
                         <div class="list-data d-flex align-items-end">
                           <div>
-                            <span className="fw-400 mb-4 d-block dark-gray-color">Current plan</span>
+                            <span className="fw-400 mb-3 mb-xxl-4 d-block dark-gray-color">Current plan</span>
                             <h5 className="fw-500 mb-2">Basic plan</h5>
                             <span className="fw-400 d-block light-gray-color">Next payment $10 on may 12th, 2013</span>
                           </div>
@@ -30,7 +30,7 @@
                         </div>
                         <div class="list-data d-flex align-items-end">
                           <div>
-                            <span className="fw-400 mb-4 d-block dark-gray-color">Billing information</span>
+                            <span className="fw-400 mb-3 mb-xxl-4 d-block dark-gray-color">Billing information</span>
                             <h5 className="fw-500 mb-2">John Wilson</h5>
                             <span className="fw-400 d-block light-gray-color">johnwilsone123@gmail.com</span>
                           </div>
@@ -71,5 +71,10 @@
   }
   .light-gray-color{
     color: #838687;
+  }
+  @media (max-width: 1799px){
+    .account-section {
+      padding: 20px 25px;
+    }
   }
 </style>

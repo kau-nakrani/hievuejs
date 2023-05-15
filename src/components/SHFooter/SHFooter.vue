@@ -143,4 +143,34 @@ footer input.form-control {
   text-align: center;
   color: var(--secondary-color);
 }
+footer .second-col{
+      padding-left: 30px;
+}
+@media (max-width: 1799px){
+    :root{
+      --right-col-width: 330px;
+    }
+    footer {
+      padding: 50px 12px 20px;
+    }
+    footer h6 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    footer ul li a{
+      font-size: 16px;
+    }
+    footer ul li {
+      padding-bottom: 15px;
+    }
+    .footer-main-col {
+      grid-gap: 10px;
+    }
+    .left-col {
+      grid-gap: 20px;
+    }
+    .sub-footer {
+      padding: 20px 12px;
+    }
+  }
 </style>

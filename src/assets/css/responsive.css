@@ -19,3 +19,9 @@
       max-width: 1374px;
     }
   }
+  @media (max-width: 1799px){
+    :root{
+      --header-less-spacing: 90px;
+      --right-col-width: 330px;
+    }
+  }
