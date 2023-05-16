@@ -153,4 +153,15 @@
         margin-bottom: 24px;
     }   
 }
+@media (max-width: 767px){
+    .accordion {
+        margin-top: 30px;
+    } 
+}
+@media (max-width: 575px){
+    .accordion-item .accordion-button{
+        font-size: 16px;
+        padding: 15px 0;
+    }
+}
 </style>

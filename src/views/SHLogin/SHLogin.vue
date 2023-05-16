@@ -120,4 +120,42 @@ import IconPassword from '../../components/icons/IconPassword.vue'
     font-size: 24px;
   }
 }
+@media (max-width: 767px){
+  .auth-section{
+    height: auto;
+    padding: 50px 12px;
+  }
+  .auth-box{
+    max-height: unset;
+  }
+  .auth-box {
+    padding: 30px 50px;
+    border-radius: 25px;
+  }
+}
+@media (max-width: 575px){
+  .auth-section{
+    padding: 30px 12px;
+  }
+  .auth-box {
+    padding: 20px 20px 30px;
+    border-radius: 20px;
+  }
+  .auth-box h2{
+    font-size: 20px;
+    line-height: inherit;
+  }
+  .auth-box form, .auth-box .sign-up-text,.auth-box .primary-btn{
+    margin-top: 20px;
+  }
+  .auth-box .forgot-pass-text, .auth-box .sign-up-text{
+    font-size: 13px;
+  }
+  .auth-box span{
+    font-size: 14px;
+  }
+  .auth-box.verify-acc-field-wrap .sign-up-text {
+    margin: 20px 0 30px;
+  }
+}
 </style>

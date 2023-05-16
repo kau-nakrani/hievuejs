@@ -264,6 +264,10 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
   color: var(--text-color);
   font-family: var(--secondary-font);
 }
+.checkout-box-row ul li svg{
+  min-width: 20px;
+  min-height: 20px;
+}
 .checkout-box-row ul li:not(:last-child){
   margin-bottom: 20px;
 }
@@ -303,6 +307,26 @@ form {
 @media (max-width: 991px){
   .checkout-box-left-col,.checkout-box-right-col{
     width: 100%;
+  }
+}
+@media (max-width: 767px){
+  .checkout-box-left-col h2{
+    font-size: 18px;
+    line-height: inherit;
+  }
+  .checkout-box-left-col,.checkout-box-right-col{
+    border-radius: 15px;
+  }
+}
+@media (max-width: 575px){
+  .checkout-box-row ul li{
+    font-size: 14px;
+  }
+  .checkout-box-right-col{
+    padding: 20px;
+  }
+  .checkout-box-right-col span{
+    font-size: 14px;
   }
 }
 </style>

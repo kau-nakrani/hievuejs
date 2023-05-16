@@ -18,61 +18,63 @@ defineProps({
 })
 </script>
 <template>
-    <table className="custom-table billing-history-table">
-        <thead>
-           <th>Plan</th>
-           <th>Date</th>
-           <th>Amount</th>
-           <th>Status</th>
-           <th>Download</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Business</td>
-                <td>09 May, 2023</td>
-                <td>$75.00</td>
-                <td class="icon">
-                    <IconCheckmark/>
-                </td>
-                <td class="icon">
-                    <span class="cursor-pointer line-height-0"><IconDownload/></span>
-                </td>
-            </tr>
-            <tr>
-                <td>Business</td>
-                <td>09 May, 2023</td>
-                <td>$75.00</td>
-                <td class="icon">
-                    <IconCheckmark/>
-                </td>
-                <td class="icon">
-                    <span class="cursor-pointer line-height-0"><IconDownload/></span>
-                </td>
-            </tr>
-            <tr>
-                <td>Business</td>
-                <td>09 May, 2023</td>
-                <td>$75.00</td>
-                <td class="icon">
-                    <IconCheckmark/>
-                </td>
-                <td class="icon">
-                    <span class="cursor-pointer line-height-0"><IconDownload/></span>
-                </td>
-            </tr>
-            <tr>
-                <td>Business</td>
-                <td>09 May, 2023</td>
-                <td>$75.00</td>
-                <td class="icon">
-                    <IconCheckmark/>
-                </td>
-                <td class="icon">
-                    <span class="cursor-pointer line-height-0"><IconDownload/></span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="table-responsive">
+        <table className="custom-table billing-history-table">
+            <thead>
+               <th>Plan</th>
+               <th>Date</th>
+               <th>Amount</th>
+               <th>Status</th>
+               <th>Download</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Business</td>
+                    <td>09 May, 2023</td>
+                    <td>$75.00</td>
+                    <td class="icon">
+                        <IconCheckmark/>
+                    </td>
+                    <td class="icon">
+                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>09 May, 2023</td>
+                    <td>$75.00</td>
+                    <td class="icon">
+                        <IconCheckmark/>
+                    </td>
+                    <td class="icon">
+                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>09 May, 2023</td>
+                    <td>$75.00</td>
+                    <td class="icon">
+                        <IconCheckmark/>
+                    </td>
+                    <td class="icon">
+                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>09 May, 2023</td>
+                    <td>$75.00</td>
+                    <td class="icon">
+                        <IconCheckmark/>
+                    </td>
+                    <td class="icon">
+                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </template>
 <style>
 .custom-table{

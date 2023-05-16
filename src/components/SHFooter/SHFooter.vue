@@ -89,7 +89,7 @@ const List1 = [
 .footer-main-col {
   grid-gap: 50px;
 }
-.left-col {
+footer .left-col {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
 }
@@ -166,7 +166,7 @@ footer .second-col{
     .footer-main-col {
       grid-gap: 10px;
     }
-    .left-col {
+    footer .left-col {
       grid-gap: 20px;
     }
     .sub-footer {
@@ -176,6 +176,41 @@ footer .second-col{
 @media (max-width: 991px){
   footer .left-col,footer .right-col{
     width: 100%;
+  }
+}
+@media (max-width: 767px){
+  footer .second-col {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 575px){
+  footer .left-col {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  footer .second-col{
+    padding-left: 0;
+  }
+  footer {
+    padding: 30px 12px 0;
+  }
+  .sub-footer h6{
+    font-size: 14px;
+  }
+  .sub-footer {
+    padding: 10px 12px;
+  }
+  footer h6{
+    margin-bottom: 10px;
+  }
+  footer ul li{
+    padding-bottom: 10px;
+  }
+  footer ul li a{
+    font-size: 14px;
+  }
+  footer p{
+    font-size: 16px;
   }
 }
 </style>

@@ -38,6 +38,17 @@
                             :autoplay=true
                             @swiper="onSwiper"
                             @slideChange="onSlideChange"
+                            :breakpoints="{
+                            '@0.00': {
+                                slidesPerView: 1.5,
+                            },
+                            '@0.75': {
+                                slidesPerView: 2,
+                            },
+                            '@1.50': {
+                                slidesPerView: 3,
+                            },
+                            }"
                         >
                             <swiper-slide>
                                 <div class="satisfied-customer-box text-center">
@@ -325,6 +336,25 @@
         height: 75px;
         border-width: 2px;
         padding: 4px;
+    }
+}
+@media (max-width: 767px){
+    .satisfied-customer-slider .swiper-wrapper{
+        padding: 10px 0 40px;
+    }
+    .satisfied-customer-box h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .satisfied-customer-box ul {
+        margin-bottom: 10px;
+    }
+    .satisfied-customer-img-box {
+        width: 65px;
+        height: 65px;
+        border-width: 2px;
+        padding: 4px;
+        margin-bottom: 10px;
     }
 }
 </style>

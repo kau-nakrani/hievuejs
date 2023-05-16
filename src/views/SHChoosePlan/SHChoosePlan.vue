@@ -22,7 +22,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           </div>
                           <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-flex gap-4 categories-list-wrap">
+                              <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
                                     <li class="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
@@ -95,7 +95,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           </div>
                           <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-flex gap-4 categories-list-wrap">
+                              <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
                                     <li class="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
@@ -168,7 +168,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           </div>
                           <div class="col-lg-7 mt-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-flex gap-4 categories-list-wrap">
+                              <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
                                     <li class="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
@@ -344,6 +344,20 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
   .choose-plan-box-wrapper {
     margin-top: 25px;
     padding: 20px 35px;
+  }
+}
+@media (max-width: 767px){
+  .choose-plan-box-wrapper h2{
+    font-size: 26px;
+  }
+  .choose-plan-box-wrapper {
+    padding: 20px;
+    border-radius: 15px;
+  }
+}
+@media (max-width: 575px){
+  .choose-plan-box-wrapper li span{
+    font-size: 14px;
   }
 }
 </style>

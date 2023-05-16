@@ -35,6 +35,7 @@ import SHTable from '../../components/SHTable/SHTable.vue';
   .billing-history-table thead th,
   .billing-history-table tbody td{
     width: calc(100% / 5);
+    min-width: 120px;
   }
   .billing-history-table tbody tr{
     border-top: 1px solid #E0EAEE;
@@ -56,6 +57,9 @@ import SHTable from '../../components/SHTable/SHTable.vue';
     .billing-history-table tbody td{
       font-size: 15px;
       padding: 7px 5px;
+    }
+    .billing-history-section{
+      padding: 0 27px 20px;
     }
   }
 </style>

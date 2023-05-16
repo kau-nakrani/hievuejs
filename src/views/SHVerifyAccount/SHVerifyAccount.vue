@@ -10,7 +10,7 @@
               >We've sent a code to hello@oliviarhye.com</span
             >
             <form>
-              <div className="form-group position-relative d-flex justify-content-center mx-auto gap-4">
+              <div className="form-group position-relative d-flex justify-content-center mx-auto gap-2 gap-sm-4">
                 <input type="text" name="" className="form-control custom-input" placeholder="" />
                 <input type="text" name="" className="form-control custom-input" placeholder="" />
                 <input type="text" name="" className="form-control custom-input" placeholder="" />

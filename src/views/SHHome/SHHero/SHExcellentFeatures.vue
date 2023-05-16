@@ -97,4 +97,37 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (max-width: 767px){
+    .excellent-features-col h6{
+        font-size: 16px;
+    }
+  .excellent-features-col{
+    padding: 20px;
+  }
+  .excellent-features-row {
+    margin-top: 20px;
+}
+.excellent-features-row{
+    grid-gap: 18px;
+}
+}
+@media (max-width: 575px){
+.excellent-features-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .excellent-features-col {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+}
+@media (max-width: 399px){
+.excellent-features-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .excellent-features-col {
+    padding: 20px;
+}
+}
 </style>

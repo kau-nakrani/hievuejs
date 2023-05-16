@@ -122,4 +122,24 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+@media (max-width: 767px){
+    .why-choose-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+  .why-choose-col h4{
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px){
+    .why-choose-row{
+        margin-top: 30px;
+    }
+    .why-choose-col h4{
+        font-size: 16px;
+    }
+    .why-choose-col p{
+        font-size: 14px;
+    }
+}
 </style>

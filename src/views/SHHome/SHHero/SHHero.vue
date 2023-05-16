@@ -13,27 +13,27 @@
                         <div class="hero-left-col text-center text-xl-start">
                             <h1 className="heading-title">
                                 Hide category and product from the shop page in
-                                <img src="./../../../assets/images/logo/woocommerce-logo.png" class="img-fluid" alt="" />
+                                <img src="./../../../assets/images/logo/woocommerce-logo.png" class="img-fluid heding-between-img" alt="" />
                             </h1>
                             <p>Hide a specific category and hide the product from the shop page using WooCommerce</p>
-                            <div className="d-flex align-items-center justify-content-center justify-content-xl-start gap-3">
-                                <button to="/checkout" className="primary-btn gap-2 big-btn d-flex align-items-center">
+                            <div className="d-sm-flex align-items-center justify-content-center justify-content-xl-start gap-3">
+                                <button to="/checkout" className="primary-btn gap-2 big-btn d-flex align-items-center mx-auto mx-sm-0">
                                     <IconDownloadWhite/>
                                     Download for free
                                 </button>
-                                <button to="/checkout" className="primary-btn secondary-btn gap-2 big-btn d-flex align-items-center">
+                                <button to="/checkout" className="primary-btn secondary-btn gap-2 big-btn d-flex align-items-center mt-2 mt-sm-0 mx-auto mx-sm-0">
                                     <IconPro/>
                                     Get PRO
                                 </button>
                             </div>
                         </div>
-                        <div class="hero-right-col mt-5 mt-xl-0">
+                        <div class="hero-right-col mt-4 mt-sm-5 mt-xl-0">
                             <img src="./../../../assets/images/medium-img/mock.png" class="img-fluid" alt="" />
                         </div>
                     </div>
                 </div>
                 <div class="col-12 hero-counter-wrap">
-                    <div class="hero-counter-row d-flex justify-content-center">
+                    <div class="hero-counter-row d-sm-flex justify-content-center">
                         <div class="hero-counter-col w-100 d-flex align-items-center">
                             <img src="./../../../assets/images/icons/happy_ic.png" class="img-fluid" alt="" />
                             <div className="content-wrap">
@@ -143,9 +143,6 @@
     .hero-section{
         padding: 50px 12px;
     }
-    .heading-title {
-        font-size: 30px;
-    }
     .hero-counter-row {
         grid-gap: 16px;
     }
@@ -171,6 +168,39 @@
     }
     .hero-counter-col span {
         font-size: 14px;
+    }
+}
+@media (max-width: 767px){
+    .hero-counter-col img{
+        max-width: 30px;
+    }
+    .hero-counter-col .content-wrap {
+        margin-left: 7px;
+        padding-left: 7px;
+    }
+}
+@media (max-width: 575px){
+    .hero-counter-col:not(:last-child){
+        margin-bottom: 20px;
+    }
+    .hero-counter-col .content-wrap {
+        margin-left: 17px;
+        padding-left: 17px;
+    }
+    .hero-counter-col {
+        padding: 5px 30px;
+    }
+    .hero-counter-col img {
+        max-width: 40px;
+    }
+    .heding-between-img{
+        max-width: 150px;
+    }
+    .hero-left-col p, .hero-counter-col span {
+        font-size: 16px;
+    }
+    .hero-counter-wrap{
+        margin-top: 50px;
     }
 }
 </style>
