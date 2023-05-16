@@ -20,7 +20,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-4 mt-lg-0">
+                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
@@ -93,7 +93,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-4 mt-lg-0">
+                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
@@ -166,7 +166,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                 <li class="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-4 mt-lg-0">
+                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
                               <h4 class="fw-700 mb-0">Featured Include:</h4>
                               <div class="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
