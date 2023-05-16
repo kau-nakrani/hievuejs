@@ -5,7 +5,7 @@ import SHFooter from './components/SHFooter/SHFooter.vue'
 </script>
 
 <template>
-  <!-- <SHHeader /> -->
+  <SHHeader />
   <RouterView />
   <SHFooter />
   <!-- <div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div> -->

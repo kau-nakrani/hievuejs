@@ -2,6 +2,7 @@
 import { RouterLink } from 'vue-router'
 import "./../SHButton/SHButton.vue";
 import logoImg from "../../assets/images/logo/logo.png";
+import IconBar from '../icons/IconBar.vue';
 </script>
 <template>
   <!-- <nav className="d-flex justify-content-between">
@@ -17,18 +18,36 @@ import logoImg from "../../assets/images/logo/logo.png";
     <div className="container">
       <div className="row">
         <div className="col-12 d-flex align-items-center">
-          <img src="./../../assets/images/logo/logo.png" fluid alt="" class="header-logo"/>
-          <nav className="d-flex align-items-center ms-auto">
+          <RouterLink to="/landing-page"><img src="./../../assets/images/logo/logo.png" fluid alt="" class="header-logo"/></RouterLink>
+          <nav className="d-none d-md-flex align-items-center ms-auto">
             <RouterLink to="/landing-page">Feature</RouterLink>
             <RouterLink to="/choose-plan">Documentations</RouterLink>
             <RouterLink to="/login">Support</RouterLink>
-            <RouterLink to="/create-account">Pro Account</RouterLink>
+            <RouterLink to="/billing-history">Pro Account</RouterLink>
             <RouterLink to="/checkout" className="primary-btn buy-button">Buy</RouterLink>
           </nav>
+          <span class="line-height-0 ms-auto cursor-pointer d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+              <IconBar/>
+          </span>
         </div>
       </div>
     </div>
   </header>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <nav className="d-block">
+          <RouterLink to="/landing-page" class="d-block w-100 mb-4">Feature</RouterLink>
+          <RouterLink to="/choose-plan" class="d-block w-100 mb-4">Documentations</RouterLink>
+          <RouterLink to="/login" class="d-block w-100 mb-4">Support</RouterLink>
+          <RouterLink to="/billing-history" class="d-block w-100 mb-4">Pro Account</RouterLink>
+          <RouterLink to="/checkout" className="primary-btn buy-button" class="d-block w-100 mb-4">Buy</RouterLink>
+        </nav>
+    </div>
+  </div>
 </template>
 <style scoped>
   header{
@@ -75,6 +94,14 @@ import logoImg from "../../assets/images/logo/logo.png";
     }
     header .primary-btn{
       min-width: 100px;
+    }
+  }
+  @media (max-width: 575px){
+    .offcanvas{
+      max-width: 250px;
+    }
+    .offcanvas .primary-btn{
+      max-width: max-content;
     }
   }
 </style>

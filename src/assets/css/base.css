@@ -660,6 +660,7 @@ textarea.form-control {
     --section-extra-big-spacing: 40px;
     --section-big-spacing: 30px;
     --section-mid-spacing: 20px;
+    --header-less-spacing: 70px !important;
   }
   .heading-title.small-heading-title{
     font-size: 22px;
