@@ -12,7 +12,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                     <h2 className="text-center fw-700 mb-0 heading-title small-heading-title">Checkout</h2>
                     <p className="label-heading-title text-center">Enter your personal details to complete your purchase.</p>
                     <div className="checkout-box-row d-lg-flex">
-                      <div class="checkout-box-left-col bg-white checkout-box-radius h-100">
+                      <div className="checkout-box-left-col bg-white checkout-box-radius h-100">
                         <h2 className="fw-700 text-start">Order Summary</h2>
                         <div className="label d-flex align-items-center w-max-content">12 months</div>
                         <hr/>
@@ -35,51 +35,51 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                         <div>
                           <h5 className="fw-500">Includes Features</h5>
                           <ul>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Hide categories in shop page
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Hide products in shop page
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Hide products and categories in shop page
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Hide categories in Widget
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Multiple select category
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Show 404 page
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Menu bar remove
                                   </span>
                               </li>
-                              <li class="fw-400 d-flex align-items-center">
+                              <li className="fw-400 d-flex align-items-center">
                                   <IconCheckmark/>
-                                  <span class="ms-2 d-block">
+                                  <span className="ms-2 d-block">
                                     Site map remove
                                   </span>
                               </li>
@@ -88,7 +88,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                           <RouterLink to="" className="text-underline text-primary text-center d-block">Change Plan</RouterLink>
                         </div>
                       </div>
-                      <div class="checkout-box-right-col bg-white checkout-box-radius h-100">
+                      <div className="checkout-box-right-col bg-white checkout-box-radius h-100">
                         <span>Enter your personal details to complete your purchase.</span>
                         <form>
                             <div className="row">
@@ -179,7 +179,7 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                                   />
                                 </div>
                               </div>
-                              <div class="d-flex align-items-center mb-3">
+                              <div className="d-flex align-items-center mb-3">
                                 <h6 className="me-2 mb-0">Payment type</h6>
                                 <img src="./../../assets/images/logo/paypal.png" className="img-fluid" alt=""/>
                                 <!-- <isHTMLTag src="./../../assets/images/logo/paypal.png"></isHTMLTag> -->

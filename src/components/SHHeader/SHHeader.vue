@@ -18,7 +18,7 @@ import IconBar from '../icons/IconBar.vue';
     <div className="container">
       <div className="row">
         <div className="col-12 d-flex align-items-center">
-          <RouterLink to="/landing-page"><img src="./../../assets/images/logo/logo.png" fluid alt="" class="header-logo"/></RouterLink>
+          <RouterLink to="/landing-page"><img src="./../../assets/images/logo/logo.png" fluid alt="" className="header-logo"/></RouterLink>
           <nav className="d-none d-md-flex align-items-center ms-auto">
             <RouterLink to="/landing-page">Feature</RouterLink>
             <RouterLink to="/choose-plan">Documentations</RouterLink>
@@ -26,25 +26,25 @@ import IconBar from '../icons/IconBar.vue';
             <RouterLink to="/billing-history">Pro Account</RouterLink>
             <RouterLink to="/checkout" className="primary-btn buy-button">Buy</RouterLink>
           </nav>
-          <span class="line-height-0 ms-auto cursor-pointer d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          <span className="line-height-0 ms-auto cursor-pointer d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
               <IconBar/>
           </span>
         </div>
       </div>
     </div>
   </header>
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <div className="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div className="offcanvas-header">
+      <h5 className="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+      <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
+    <div className="offcanvas-body">
         <nav className="d-block">
-          <RouterLink to="/landing-page" class="d-block w-100 mb-4">Feature</RouterLink>
-          <RouterLink to="/choose-plan" class="d-block w-100 mb-4">Documentations</RouterLink>
-          <RouterLink to="/login" class="d-block w-100 mb-4">Support</RouterLink>
-          <RouterLink to="/billing-history" class="d-block w-100 mb-4">Pro Account</RouterLink>
-          <RouterLink to="/checkout" className="primary-btn buy-button" class="d-block w-100 mb-4">Buy</RouterLink>
+          <RouterLink to="/landing-page" className="d-block w-100 mb-4">Feature</RouterLink>
+          <RouterLink to="/choose-plan" className="d-block w-100 mb-4">Documentations</RouterLink>
+          <RouterLink to="/login" className="d-block w-100 mb-4">Support</RouterLink>
+          <RouterLink to="/billing-history" className="d-block w-100 mb-4">Pro Account</RouterLink>
+          <RouterLink to="/checkout" className="primary-btn buy-button d-block w-100 mb-4">Buy</RouterLink>
         </nav>
     </div>
   </div>

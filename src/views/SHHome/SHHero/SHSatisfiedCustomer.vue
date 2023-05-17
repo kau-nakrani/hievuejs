@@ -24,12 +24,12 @@
 </script>
 <template>
     <section className="satisfied-customer-section img-cover section-extra-big-pt">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
                     <h2 className="heading-title small-heading-title text-center">Satisfied our customers</h2>
                     <p className="label-heading-title">Heard about us? Listen to what our customer has to say about us.</p>
-                    <div class="satisfied-customer-slider">
+                    <div className="satisfied-customer-slider">
                         <swiper
                             :slides-per-view="3"
                             :space-between="0"
@@ -51,10 +51,10 @@
                             }"
                         >
                             <swiper-slide>
-                                <div class="satisfied-customer-box text-center">
-                                    <div class="satisfied-customer-img-box mx-auto">
-                                        <div class="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
-                                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                                <div className="satisfied-customer-box text-center">
+                                    <div className="satisfied-customer-img-box mx-auto">
+                                        <div className="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
+                                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                     <h5 className="fw-500">Goliathks</h5>
@@ -85,14 +85,14 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <p class="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
+                                    <p className="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="satisfied-customer-box text-center">
-                                    <div class="satisfied-customer-img-box mx-auto">
-                                        <div class="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
-                                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                                <div className="satisfied-customer-box text-center">
+                                    <div className="satisfied-customer-img-box mx-auto">
+                                        <div className="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
+                                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                     <h5 className="fw-500">Goliathks</h5>
@@ -123,14 +123,14 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <p class="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
+                                    <p className="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="satisfied-customer-box text-center">
-                                    <div class="satisfied-customer-img-box mx-auto">
-                                        <div class="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
-                                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                                <div className="satisfied-customer-box text-center">
+                                    <div className="satisfied-customer-img-box mx-auto">
+                                        <div className="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
+                                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                     <h5 className="fw-500">Goliathks</h5>
@@ -161,14 +161,14 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <p class="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
+                                    <p className="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="satisfied-customer-box text-center">
-                                    <div class="satisfied-customer-img-box mx-auto">
-                                        <div class="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
-                                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                                <div className="satisfied-customer-box text-center">
+                                    <div className="satisfied-customer-img-box mx-auto">
+                                        <div className="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
+                                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                     <h5 className="fw-500">Goliathks</h5>
@@ -199,14 +199,14 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <p class="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
+                                    <p className="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
                                 </div>
                             </swiper-slide>
                             <swiper-slide>
-                                <div class="satisfied-customer-box text-center">
-                                    <div class="satisfied-customer-img-box mx-auto">
-                                        <div class="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
-                                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                                <div className="satisfied-customer-box text-center">
+                                    <div className="satisfied-customer-img-box mx-auto">
+                                        <div className="bg-white w-100 h-100 b-radius-100 d-flex align-items-center justify-content-center">
+                                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                                         </div>
                                     </div>
                                     <h5 className="fw-500">Goliathks</h5>
@@ -237,7 +237,7 @@
                                             </svg>
                                         </li>
                                     </ul>
-                                    <p class="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
+                                    <p className="fw-400 mb-0">"I was looking for a new plugin to not show products from certain categories on the shop page.It seems to work well at first sight. I will definitely keep testing it, thanks to the developers."</p>
                                 </div>
                             </swiper-slide>
                             ...

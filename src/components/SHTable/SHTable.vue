@@ -18,7 +18,7 @@ defineProps({
 })
 </script>
 <template>
-    <div class="table-responsive">
+    <div className="table-responsive">
         <table className="custom-table billing-history-table">
             <thead>
                <th>Plan</th>
@@ -32,44 +32,44 @@ defineProps({
                     <td>Business</td>
                     <td>09 May, 2023</td>
                     <td>$75.00</td>
-                    <td class="icon">
+                    <td className="icon">
                         <IconCheckmark/>
                     </td>
-                    <td class="icon">
-                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    <td className="icon">
+                        <span className="cursor-pointer line-height-0"><IconDownload/></span>
                     </td>
                 </tr>
                 <tr>
                     <td>Business</td>
                     <td>09 May, 2023</td>
                     <td>$75.00</td>
-                    <td class="icon">
+                    <td className="icon">
                         <IconCheckmark/>
                     </td>
-                    <td class="icon">
-                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    <td className="icon">
+                        <span className="cursor-pointer line-height-0"><IconDownload/></span>
                     </td>
                 </tr>
                 <tr>
                     <td>Business</td>
                     <td>09 May, 2023</td>
                     <td>$75.00</td>
-                    <td class="icon">
+                    <td className="icon">
                         <IconCheckmark/>
                     </td>
-                    <td class="icon">
-                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    <td className="icon">
+                        <span className="cursor-pointer line-height-0"><IconDownload/></span>
                     </td>
                 </tr>
                 <tr>
                     <td>Business</td>
                     <td>09 May, 2023</td>
                     <td>$75.00</td>
-                    <td class="icon">
+                    <td className="icon">
                         <IconCheckmark/>
                     </td>
-                    <td class="icon">
-                        <span class="cursor-pointer line-height-0"><IconDownload/></span>
+                    <td className="icon">
+                        <span className="cursor-pointer line-height-0"><IconDownload/></span>
                     </td>
                 </tr>
             </tbody>

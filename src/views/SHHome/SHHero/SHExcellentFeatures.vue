@@ -6,42 +6,42 @@
 
 <template>
     <section className="excellent-features-section section-extra-big-py">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
                     <h2 className="heading-title small-heading-title text-center">Here are our excellent Features</h2>
                     <p className="label-heading-title">Install the app easily with the plugin. You can start immediately once it has been installed and your account has been created.</p>
-                    <div class="excellent-features-row d-grid">
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/show_404_icon.png" class="img-fluid" alt="" />
+                    <div className="excellent-features-row d-grid">
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/show_404_icon.png" className="img-fluid" alt="" />
                             <h6 clasName="fw-400">Show 404 page</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/multi_category_select_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/multi_category_select_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Multiple select category</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/menubar_remove_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/menubar_remove_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Menu bar remove</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/sitemap_remove_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/sitemap_remove_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Site map remove</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/hide_category_.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/hide_category_.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Hide categories in shop page</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/hide_product_shop_page_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/hide_product_shop_page_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Hide products in shop page</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/hide_category_shop_page_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/hide_category_shop_page_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Hide products and categories in shop page</h6>
                         </div>
-                        <div class="excellent-features-col d-flex align-items-center">
-                            <img src="./../../../assets/images/icons/hide_category_widget_ic.png" class="img-fluid" alt="" /> 
+                        <div className="excellent-features-col d-flex align-items-center">
+                            <img src="./../../../assets/images/icons/hide_category_widget_ic.png" className="img-fluid" alt="" /> 
                             <h6 clasName="fw-400">Hide categories in Widget</h6>
                         </div>
                     </div>

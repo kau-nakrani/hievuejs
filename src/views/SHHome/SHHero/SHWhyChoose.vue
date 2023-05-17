@@ -6,39 +6,39 @@
 
 <template>
     <section className="why-choose-section position-relative z-2 section-extra-big-py">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
                     <h2 className="heading-title small-heading-title text-center">Why choose customer our Plugins?</h2>
                     <p className="label-heading-title">We create easy-to-use plugin so you can focus on what you do best.</p>
-                    <div class="why-choose-row d-grid">
-                        <div class="why-choose-col">
-                            <div class="why-choose-img-box d-flex align-items-center justify-content-center mx-auto esty-to-use-bg">
-                                <img src="./../../../assets/images/icons/why-choose1.svg" class="img-fluid" alt=""/>
+                    <div className="why-choose-row d-grid">
+                        <div className="why-choose-col">
+                            <div className="why-choose-img-box d-flex align-items-center justify-content-center mx-auto esty-to-use-bg">
+                                <img src="./../../../assets/images/icons/why-choose1.svg" className="img-fluid" alt=""/>
                             </div>
-                            <h4 class="text-center mb-2 fw-600">EASY TO USE</h4>
-                            <p class="fw-400 mb-0">We design products that deliver unparalleled solutions and require zero effort to operate.</p>
+                            <h4 className="text-center mb-2 fw-600">EASY TO USE</h4>
+                            <p className="fw-400 mb-0">We design products that deliver unparalleled solutions and require zero effort to operate.</p>
                         </div>
-                        <div class="why-choose-col">
-                            <div class="why-choose-img-box d-flex align-items-center justify-content-center mx-auto open-source-bg">
-                                <img src="./../../../assets/images/icons/why-choose2.svg" class="img-fluid" alt=""/>
+                        <div className="why-choose-col">
+                            <div className="why-choose-img-box d-flex align-items-center justify-content-center mx-auto open-source-bg">
+                                <img src="./../../../assets/images/icons/why-choose2.svg" className="img-fluid" alt=""/>
                             </div>
-                            <h4 class="text-center mb-2 fw-600">OPEN SOURCE</h4>
-                            <p class="fw-400 mb-0">we used coding standards and best practices are important. Using our plugins ensures your website is secure whilst providing your site visitors, customers and potential clients with a fast user experience.</p>
+                            <h4 className="text-center mb-2 fw-600">OPEN SOURCE</h4>
+                            <p className="fw-400 mb-0">we used coding standards and best practices are important. Using our plugins ensures your website is secure whilst providing your site visitors, customers and potential clients with a fast user experience.</p>
                         </div>
-                        <div class="why-choose-col">
-                            <div class="why-choose-img-box d-flex align-items-center justify-content-center mx-auto loved-by-user-bg">
-                                <img src="./../../../assets/images/icons/why-choose3.svg" class="img-fluid" alt=""/>
+                        <div className="why-choose-col">
+                            <div className="why-choose-img-box d-flex align-items-center justify-content-center mx-auto loved-by-user-bg">
+                                <img src="./../../../assets/images/icons/why-choose3.svg" className="img-fluid" alt=""/>
                             </div>
-                            <h4 class="text-center mb-2 fw-600">LOVED BY USERS</h4>
-                            <p class="fw-400 mb-0">Our plugins consistently receive high ratings and are featured on over 7k websites. It is our goal that the customer is satisfied with our product.</p>
+                            <h4 className="text-center mb-2 fw-600">LOVED BY USERS</h4>
+                            <p className="fw-400 mb-0">Our plugins consistently receive high ratings and are featured on over 7k websites. It is our goal that the customer is satisfied with our product.</p>
                         </div>
-                        <div class="why-choose-col">
-                            <div class="why-choose-img-box d-flex align-items-center justify-content-center mx-auto fast-and-sequre-bg">
-                                <img src="./../../../assets/images/icons/why-choose4.svg" class="img-fluid" alt=""/>
+                        <div className="why-choose-col">
+                            <div className="why-choose-img-box d-flex align-items-center justify-content-center mx-auto fast-and-sequre-bg">
+                                <img src="./../../../assets/images/icons/why-choose4.svg" className="img-fluid" alt=""/>
                             </div>
-                            <h4 class="text-center mb-2 fw-600">FAST AND SECURE</h4>
-                            <p class="fw-400 mb-0">Coding standards and best practices are important. Using our plugins ensure your website is secure while providing your site visitors, customers and potential clients with a fast user experience.</p>
+                            <h4 className="text-center mb-2 fw-600">FAST AND SECURE</h4>
+                            <p className="fw-400 mb-0">Coding standards and best practices are important. Using our plugins ensure your website is secure while providing your site visitors, customers and potential clients with a fast user experience.</p>
                         </div>
                     </div>
                 </div>

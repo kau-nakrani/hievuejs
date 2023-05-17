@@ -4,15 +4,15 @@
             <div className="row">
                 <div className="col-12">
                     <div className="box-wrapper account-section bg-style0 position-relative mt-0">
-                        <div class="list-data">
+                        <div className="list-data">
                           <span className="fw-400 mb-2 mb-xxl-4 d-block dark-gray-color">Personal Information</span>
-                          <div class="d-md-flex align-items-end">
-                            <div class="d-lg-flex gap-3 gap-xl-5">
+                          <div className="d-md-flex align-items-end">
+                            <div className="d-lg-flex gap-3 gap-xl-5">
                               <div>
                                 <h6 className="fw-400 mb-2">Name</h6>
                                 <p className="fw-500 mb-0">John Wilson</p>
                               </div>
-                              <div class="mt-2 mt-lg-0">
+                              <div className="mt-2 mt-lg-0">
                                 <h6 className="fw-400 mb-2">Email Address</h6>
                                 <p className="fw-500 mb-0">johnwilsone123@gmail.com</p>
                               </div>
@@ -20,7 +20,7 @@
                             <RouterLink to="/" className="ms-auto fw-400 text-primary text-underline mt-3 mt-md-0 d-block">Edit your profile</RouterLink>
                           </div>
                         </div>
-                        <div class="list-data d-md-flex align-items-end">
+                        <div className="list-data d-md-flex align-items-end">
                           <div>
                             <span className="fw-400 mb-2 mb-xxl-4 d-block dark-gray-color">Current plan</span>
                             <h5 className="fw-500 mb-2">Basic plan</h5>
@@ -28,7 +28,7 @@
                           </div>
                           <RouterLink to="/" className="ms-auto fw-400 text-primary text-underline mt-3 mt-md-0 d-block">Upgrade your plan</RouterLink>
                         </div>
-                        <div class="list-data d-md-flex align-items-end">
+                        <div className="list-data d-md-flex align-items-end">
                           <div>
                             <span className="fw-400 mb-2 mb-xxl-4 d-block dark-gray-color">Billing information</span>
                             <h5 className="fw-500 mb-2">John Wilson</h5>

@@ -11,220 +11,220 @@ import IconWrongMark from '../../components/icons/IconWrongMark.vue';
                     <h2 className="text-center fw-700 mb-0 heading-title small-heading-title">Billing History</h2>
                     <p className="label-heading-title text-center">Join 7000+ happy users who are using the best of our plugin Hide category and products in WooCommerce.</p>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style0 position-relative">
-                      <div class="row">
-                          <div class="col-lg-3">
-                              <div class="label label-yellow d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
-                              <p class="fw-400">For those that are just starting out. use on 1 sites</p>
-                              <ul class="plan-list-wrap">
-                                <li class="fw-400 position-relative">1 year of updates</li>
-                                <li class="fw-400 position-relative">1 year of regular support</li>
+                      <div className="row">
+                          <div className="col-lg-3">
+                              <div className="label label-yellow d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
+                              <p className="fw-400">For those that are just starting out. use on 1 sites</p>
+                              <ul className="plan-list-wrap">
+                                <li className="fw-400 position-relative">1 year of updates</li>
+                                <li className="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
-                              <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-md-flex gap-4 categories-list-wrap">
+                          <div className="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
+                              <h4 className="fw-700 mb-0">Featured Include:</h4>
+                              <div className="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products and categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in Widget
                                         </span>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Multiple select category
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Show 404 page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Menu bar remove
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Site map remove
                                         </span>
                                     </li>
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
-                              <h2 class="fw-700 mb-3">$10.00</h2>
+                          <div className="col-md-2 text-center align-self-center mt-4 mt-lg-0">
+                              <h2 className="fw-700 mb-3">$10.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
                       </div>
                   </div>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style1 position-relative">
-                      <div class="row">
-                          <div class="col-lg-3">
-                              <div class="label label-green d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
-                              <p class="fw-400">For those that are just starting out. use on 1 sites</p>
-                              <ul class="plan-list-wrap">
-                                <li class="fw-400 position-relative">1 year of updates</li>
-                                <li class="fw-400 position-relative">1 year of regular support</li>
+                      <div className="row">
+                          <div className="col-lg-3">
+                              <div className="label label-green d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
+                              <p className="fw-400">For those that are just starting out. use on 1 sites</p>
+                              <ul className="plan-list-wrap">
+                                <li className="fw-400 position-relative">1 year of updates</li>
+                                <li className="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
-                              <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-md-flex gap-4 categories-list-wrap">
+                          <div className="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
+                              <h4 className="fw-700 mb-0">Featured Include:</h4>
+                              <div className="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products and categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in Widget
                                         </span>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Multiple select category
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Show 404 page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Menu bar remove
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Site map remove
                                         </span>
                                     </li>
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
-                              <h2 class="fw-700 mb-3">$25.00</h2>
+                          <div className="col-md-2 text-center align-self-center mt-4 mt-lg-0">
+                              <h2 className="fw-700 mb-3">$25.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
                       </div>
                   </div>
                   <div className="box-wrapper-one choose-plan-box-wrapper bg-style2 position-relative">
-                      <div class="row">
-                          <div class="col-lg-3">
-                              <div class="label label-pink d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
-                              <p class="fw-400">For those that are just starting out. use on 1 sites</p>
-                              <ul class="plan-list-wrap">
-                                <li class="fw-400 position-relative">1 year of updates</li>
-                                <li class="fw-400 position-relative">1 year of regular support</li>
+                      <div className="row">
+                          <div className="col-lg-3">
+                              <div className="label label-pink d-flex align-items-center justify-content-center fw-700 w-max-content">Basic</div>
+                              <p className="fw-400">For those that are just starting out. use on 1 sites</p>
+                              <ul className="plan-list-wrap">
+                                <li className="fw-400 position-relative">1 year of updates</li>
+                                <li className="fw-400 position-relative">1 year of regular support</li>
                               </ul>
                           </div>
-                          <div class="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
-                              <h4 class="fw-700 mb-0">Featured Include:</h4>
-                              <div class="d-md-flex gap-4 categories-list-wrap">
+                          <div className="col-lg-7 mt-3 mt-sm-4 mt-lg-0">
+                              <h4 className="fw-700 mb-0">Featured Include:</h4>
+                              <div className="d-md-flex gap-4 categories-list-wrap">
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide products and categories in shop page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconCheckmark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Hide categories in Widget
                                         </span>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Multiple select category
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Show 404 page
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Menu bar remove
                                         </span>
                                     </li>
-                                    <li class="fw-400 d-flex align-items-center">
+                                    <li className="fw-400 d-flex align-items-center">
                                         <IconWrongMark/>
-                                        <span class="ms-2 d-block">
+                                        <span className="ms-2 d-block">
                                           Site map remove
                                         </span>
                                     </li>
                                 </ul>
                               </div>
                           </div>
-                          <div class="col-md-2 text-center align-self-center mt-4 mt-lg-0">
-                              <h2 class="fw-700 mb-3">$75.00</h2>
+                          <div className="col-md-2 text-center align-self-center mt-4 mt-lg-0">
+                              <h2 className="fw-700 mb-3">$75.00</h2>
                               <RouterLink to="/checkout" className="primary-btn buy-button">Buy Now</RouterLink>
                           </div>
                       </div>
